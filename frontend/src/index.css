@@ -1,0 +1,179 @@
+/* Smart Livestock Farm - Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #ffffff;
+  color: #111;
+  line-height: 1.6;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Utility */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  background: lab(100% 0.01 -0.01);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.08);
+  padding: 24px;
+  margin-bottom: 20px;
+  color: #333 !important;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s;
+}
+
+.btn-primary {
+  background: #2e7d32;
+  color: #f5f5f5;
+}
+
+.btn-primary:hover {
+  background: #1b5e20;
+}
+
+.btn-secondary {
+  background: #757575;
+  color: #f5f5f5;
+}
+
+.btn-secondary:hover {
+  background: #616161;
+}
+
+.btn-danger {
+  background: #c62828;
+  color: #f5f5f5;
+}
+
+.btn-danger:hover {
+  background: #b71c1c;
+}
+
+input, select, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+  margin-bottom: 12px;
+  background: #fff;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 500;
+  color: #666;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+th {
+  background: #f5f5f5;
+  font-weight: 600;
+  color: #444;
+}
+
+tr:hover {
+  background: #f8f8f8;
+}
+
+.error {
+  color: #b71c1c;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.success {
+  color: #1b5e20;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+/* Adjusted text colors for visibility */
+body {
+  color: #111; /* Default text color */
+}
+
+.nav-item, .menu-item, .content-text {
+  color: #333; /* Ensure navigation and content text are visible */
+}
+
+.card {
+  color: #333 !important; /* Adjusted from white */
+}
+
+.btn-primary {
+  color: #f5f5f5; /* Adjusted from white */
+}
+
+.btn-secondary {
+  color: #f5f5f5; /* Adjusted from white */
+}
+
+.btn-danger {
+  color: #f5f5f5; /* Adjusted from white */
+}
+
+input, select, textarea {
+  color: #333; /* Adjusted from #fefefe */
+}
+
+label {
+  color: #666; /* Adjusted from #fbf9f9 */
+}
+
+th {
+  color: #444; /* Adjusted from #333 */
+}
+
+.error {
+  color: #b71c1c; /* Slightly darker red */
+}
+
+.success {
+  color: #1b5e20; /* Slightly darker green */
+}
+
+/* Adjusted text colors for content visibility */
+.content-text {
+  color: #333; /* Ensure content text is visible */
+}
